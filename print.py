@@ -1,4 +1,5 @@
 import application
 
-a = application.Test("aaaa")
-a.printText()
+dataFile = open("data.txt")
+data = dataFile.read()
+print(data)
